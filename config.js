@@ -3,7 +3,7 @@
 // ─────────────────────────────────────────────────────────────
 window.PARIA_CONFIG = {
   // 1) Filled in AFTER you create your signing key in admin.html (see SETUP.md, step 4)
-  PUBLIC_KEY: null,
+  PUBLIC_KEY: {"kty":"EC","crv":"P-256","x":"cVoGDvu2ii1xvgC-DbAI6qUuWxImFAVAPArEiDCN8ks","y":"cMNyeJkANj_O16aKZd5yE8GjSnUmAhVTzfWFHHRmAss"},
 
   // 2) Payment screen
   PRICE_TEXT: "10.000.000 Rial",
